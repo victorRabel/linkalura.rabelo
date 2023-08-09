@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+    <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Alurabooks</title>
+ <link rel="stylesheet" href="reset.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+<header class="cabeçalho">
+    <div class="container">
+        <input type="checkbox" id="menu" class="container__botao">
+        <label for="menu" class="container__rotulo">
+    <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+ </label>
+ <ul class="lista-menu">
+    <li class="lista-menu__titulo">Estante</li>
+    <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Nanatsu no Taizai</a>
+    </li>
+    <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">My hero Academia</a>
+    </li>
+    <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">One Piece</a>
+    </li>
+    <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Spy x Family</a>
+    </li>
+    <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Sword Art Online</a>
+    </li>
+</ul>
+ <img src="img/Logo.svg.svg" alt="Logo Alurabooks" class="container__imagem">
+ <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Otak'u</h1>
+    </div>
+
+<ul class="opçoes">
+   <input type="checkbox" id="opçoes-menu" class="opçoes__botao">
+   <label for="opçoes-menu" class="opçoes__rotulo">
+    <li class="opçoes__item">Estante</li>
+</label>
+<ul class="lista-menu">
+    <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Nanatsu no Taizai</a>
+    </li>
+    <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">My hero Academia</a>
+    </li>
+    <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">One Piece</a>
+    </li>
+    <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Spy x Family</a>
+    </li>
+    <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">Sword Art Online</a>
+    </li>
+</ul>
+
+    <li class="opçoes__item"><a href="#" class=opçoes__link>favoritos</a></li>
+    <li class="opçoes__item"><a href="#" class=opçoes__link>Biblioteca </a></li>
+</ul>
+
+    <div class="container">
+        <a href="#"><img src="img/favoritos.svg" alt="meus favoritos" class="container__imagem container__imagem-transparente"></a>
+        <a href="#" class="container__link">
+            <img src="img/compras.svg" alt="carrinho de compras" class="container__imagem">
+            <p class="container__texto">Minha Sacola</p>
+        </a>
+        <a href="#" class="container__link">
+            <img src="img/perfil.svg" alt="meu perfil" class="container__imagem">
+            <p class="container__texto">Meu Perfil</p>
+        </a>
+    </div>
+    </span>
+</header>
+  <section class="banner">
+    <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+    <p class="banner__texto">Encontre em nossa estante o que precisa para seu momento anime!</p>
+    <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Novos Lançamentos</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="img/tokyo.jpg" alt="Livros sobre tokyo Ghoul"></div>
+      <div class="swiper-slide"><img src="img/saven.jpg" alt="Livros sobre the Seven"></div>
+      <div class="swiper-slide"><img src="img/Jujutsu-Kaisen-14.jpg" alt="Livros sobre Jujutsu Kaisen"></div>
+      <div class="swiper-slide"><img src="img/fire-force-manga-1.jpg" alt="Livros sobre fire-force"></div>
+      <div class="swiper-slide"><img src="img/dn-black-edition-01.jpg" alt="Livros sobre Death note"></div>
+      <div class="swiper-slide"><img src="img/sword-art-online-project-alicization-vol-1-manga.jpg" alt="Livros sobre sword-art"></div>
+    </div>
+
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+
+<div class="card">
+    <div class="card__descriçao">
+        <div class="descriçao">
+            <h3 class="descriçao__titulo">Talvez voce tambem se interesse por...</h3>
+            <h2 class="descriçao__titulo-livro">Spy x family</h2>
+            <p class="descriçao__texto">Série de mangá shōnen japonesa escrita e ilustrada por Tatsuya Endo.</p>
+        </div>
+        <img src="img/spy.jpg" class="descriçao__imagem">
+    </div>
+
+<div class="card__botoes">
+    <ul class="botoes">
+        <li class="botoes__item"><img src="img/favoritos.svg" alt="favoritar livro"></alt></li>
+        <li class="botoes__item"><img src="img/compras.svg" alt="adicionar ao carrinho de compras"></li>
+    </ul>
+
+<a href="#" class="botoes__ancora">Saiba mais</a>
+
+</div>
+
+</div>
+
+</div>
+    
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">Mais vendidos</h2>
+            <!-- Slider main container -->
+            <div class="carrossel__container">
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="img/91xUwI2UEVL.jpg" alt="Livros sobre naruto"></div>
+          <div class="swiper-slide"><img src="img/91WgpA0pjOL._AC_UF1000,1000_QL80_.jpg" alt="Livros sobre Black Clover"></div>
+          <div class="swiper-slide"><img src="img/81qXpo+EuzL._AC_UF1000,1000_QL80_.jpg" alt="Livros sobre Kuroko no Basket"></div>
+          <div class="swiper-slide"><img src="img/71bELfIWTDL._AC_UF1000,1000_QL80_.jpg" alt="Livros sobre boku no hero 1"></div>
+          <div class="swiper-slide"><img src="img/boku.jpg" alt="Livros sobre boku no hero 2"></div>
+          <div class="swiper-slide"><img src="img/force.jpg" alt="Livros sobre fire force"></div>
+        </div>
+    
+    
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    
+    <div class="card">
+        <div class="card__descriçao">
+            <div class="descriçao">
+                <img src="img/Estrelinhas.svg" alt="Estrelinhas">
+                <h3 class="descriçao__titulo">Autor do mes</h3>
+                <h2 class="descriçao__titulo-livro">Masashi Kishimoto</h2>
+                <p class="descriçao__texto">Mangaká e escritor japonês de Naruto, criado em 1997. </p>
+            </div>
+            <img src="img/Masashi_kishimoto.webp" class="descriçao__imagem">
+        </div>
+    
+    <div class="card__botoes">
+        <ul class="botoes">
+            <li class="botoes__item"><img src="img/favoritos.svg" alt="favoritar livro"></alt></li>
+            <li class="botoes__item"><img src="img/compras.svg" alt="adicionar ao carrinho de compras"></li>
+        </ul>
+    
+    <a href="#" class="botoes__ancora">Saiba mais</a>
+    
+    </div>
+    
+    </div>
+</div>
+    
+        </section>
+    
+        <section class="topicos">
+            <h2 class="topicos__titulo">Mangás mais visitados recentemente</h2>
+            <ul class="topicos__lista">
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">Boku no Hero</a>
+                </li>
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">Tokyo Ghoul</a>
+                </li>
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">Death Note</a>
+                </li>
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">Fire Force</a>
+                </li>
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">Kuroko no Basket</a>
+                </li>
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">Black Clover</a>
+                </li>
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">Jujutsu Kaisen</a>
+                </li>
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">The Seven Deadly Sins</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="contato">
+            <div class="contato__descriçao">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizaçoes de animes, novos mangás, promoçoes e outros.</p>
+        </div>
+            <input type="email" placeholder="Cadastre seu email" class="contato__email">
+        </section>
+
+        <hr/>
+        <footer class="rodape">
+            <h2 class="rodape__titulo">Grupo Otak'u</h2>
+            <ul class="lista-rodape">
+                <li class="lista-rodape__titulo">Para Mangaká</li>
+                <li class="lista-rodape__item">
+                    <img src="img/CasaDoCodigo.svg" alt="logo da casa do codigo">
+                    <a href="#" class="lista-rodape__link">Jump Paint</a>
+                </li>
+                <li class="lista-rodape__item">
+                    <img src="img/Caelum.svg" alt="logo da Caelum">
+                    <a href="#" class="lista-rodape__link">UPMangá</a>
+                </li>
+            </ul>
+
+            <ul class="lista-rodape">
+                <li class="lista-rodape__titulo">Leituras Online</li>
+                <li class="lista-rodape__item">
+                    <img src="img/Alura.svg" alt="logo da Alura">
+                    <a href="#" class="lista-rodape__link">EditoraNebulosa</a>
+                </li>
+                <li class="lista-rodape__item">
+                    <img src="img/AluraEmpresas.svg" alt="AluraEmpresas">
+                    <a href="#" class="lista-rodape__link">DPZINE</a>
+                </li>
+                    <li class="lista-rodape__item">
+                        <img src="img/AluraLATAM.svg" alt="logo da AluraLATAM">
+                        <a href="#" class="lista-rodape__link">Comic Walker</a>
+                    </li>
+                    <li class="lista-rodape__item">
+                        <img src="img/AluraStart.svg" alt="logo alura AluraStart">
+                        <a href="#" class="lista-rodape__link">Shonen Jump</a>
+                    </li>
+                    <li class="lista-rodape__item">
+                        <img src="img/MusicDot.svg" alt="MusicDot">
+                        <a href="#" class="lista-rodape__link">Book Walker</a>
+                    </li>
+                    <li class="lista-rodape__item">
+                        <img src="img/AluraLingua.svg" alt="logo alura AluraLingua">
+                        <a href="#" class="lista-rodape__link">Crunchyroll</a>
+                    </li>
+                    <li class="lista-rodape__item">
+                        <img src="img/PM3.svg" alt="logo alura PM3">
+                        <a href="#" class="lista-rodape__link">Comixology</a>
+                    </li>
+            </ul>
+
+            <ul class="lista-rodape">
+                <li class="lista-rodape__titulo">Comunidade</li>
+                <li class="lista-rodape__item">
+                    <img src="img/HipstersTech.svg" alt="logo da HipstersTech">
+                    <a href="#" class="lista-rodape__link"> Manga Plus </a>
+                </li>
+                <li class="lista-rodape__item">
+                    <img src="img/ScubaDev.svg" alt="ScubaDev">
+                    <a href="#" class="lista-rodape__link">Webtoon</a>
+                </li>
+                    <li class="lista-rodape__item">
+                        <img src="img/LayersTech.svg" alt="logo da LayersTech">
+                        <a href="#" class="lista-rodape__link">MangaToon </a>
+                    </li>
+                    <li class="lista-rodape__item">
+                        <img src="img/LikeABoss.svg" alt="logo alura LikeABoss">
+                        <a href="#" class="lista-rodape__link">Renta</a>
+                    </li>
+                    <li class="lista-rodape__item">
+                        <img src="img/CarreiraSemFronteira.svg" alt="CarreiraSemFronteira">
+                        <a href="#" class="lista-rodape__link">Manga Dogs</a>
+                    </li>
+                    <li class="lista-rodape__item">
+                        <img src="img/HipstersJobs.svg" alt="logo alura HipstersJobs">
+                        <a href="#" class="lista-rodape__link">Anime Planet</a>
+                    </li>
+                    <li class="lista-rodape__item">
+                        <img src="img/GUJ.svg" alt="logo alura GUJ">
+                        <a href="#" class="lista-rodape__link"> Pluto TV</a>
+                    </li>
+            </ul>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+    const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+      });
+      </script>
+
+</body>
+
+    </html>
